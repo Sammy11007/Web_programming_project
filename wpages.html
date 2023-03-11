@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+
+<title>Sports</title> 
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale: 1.0, user-scaleable=no">
+<meta property="og:image" content="http://www.mhwebdesigns.com/templates/panel/images/preview.jpg"/>
+<script src="scripts/jquery-1.12.3.min.js"></script>
+<script src="scripts/main.js"></script>
+ 
+</head>
+
+
+<body>
+
+	<div id="header">
+
+
+		<div class="logo"><a href="#"><span>  Suggestion list for Improvement of Facilities</span></a>
+		</div>
+
+<div id="mhwebhold"></div>
+<div id="hold">
+	<a class="mobile" href="#">MENU</a></div></div>
+
+	<div id="container">
+		<div class="sidebar">
+			<ul id="nav">
+				<li><a  href="login.php">Logout</a></li>
+				<li><a  href="index.html">Home</a></li>
+				<li><a  href="wpages.html"> Sports</a></li>
+				<li><a  href="wpage3.html"> Library</a></li>	
+				<li><a  href="wpages2.html"> Laboratory</a></li>	
+				
+			</ul>
+			<a class="menuclose" href="#">X Close Menu</a></div></div>
+		</div>
+		<div align="middle">
+		<h2>Sports Facilities</h2></div>
+
+
+		<div class="content">
+		<div align="right">
+		 <img src="BMSlogo.png" width="40%"/>
+		 </div>
+			
+ <div style=" position:absolute; top : 200px;">
+  <form action="suggestions.php" method="POST">
+		<b>Which sport facilities would you like improved?</b><br/>
+			<p style="text-align:left">
+				<input type="checkbox" name="s1">Cricket</input><br/>
+				<input type="checkbox" name="s2">Football</input><br/>
+				<input type="checkbox" name="s3">Basketball</input><br/>
+				<input type="checkbox" name="s4">Tennis</input><br/>
+				<input type="checkbox" name="s5">Badminton</input><br/>
+				<input type="checkbox" name="s6">Hockey</input><br/>
+				<input type="checkbox" name="s7">Table Tennis</input><br/>
+				<input type="checkbox" name="s8">Athletics</input><br/>
+				<input type="checkbox" name="s9">Swimming</input><br/>
+			</p>
+			<label name="sp1">Other facilities :</label>
+			<select>
+				  <option value="f1" name="s10">Gym</option>
+				  <option value="f2" name="s11">Court</option>
+				  <option value="f3" name="s12">Outdoor field</option>
+				  <option value="f4" name="s13">Jerseys</option>
+				  <option value="f5" name="s14">Equipment</option>
+			</select><br/>
+		<label name="reason1">Reason :</label><br/>
+		<input type="checkbox" name="res1">Lack of equipments</input><br/>
+		<input type="checkbox" name="res2">Poor quality of facilities</input><br/>
+		<input type="checkbox" name="res3">Poor maintainance</input><br/>
+		<input type="checkbox" name="res4">Outdated equipments</input><br/>
+		<br/>
+		<label>Type in your suggestions :</label><br/>
+			<textarea rows="5" cols="50" name="sugg1"/>
+			</textarea>
+		<br/>
+		<input type="submit" value="SUBMIT"/>
+		<input type="reset" value="RESET"/><br/><br/>
+	</form></p></div>
+
+  
+  
+ 
+
+			
+		</div>
+		
+
+</body>
+
+</html>
